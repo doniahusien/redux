@@ -1,8 +1,14 @@
 import { BUY_CAKE } from "./actionTypes"
-
-const buy_cakes = () => {
+import { BUY_CAKE_NUM } from "./actionTypes"
+export const buy_cakes = () => {
     return {
         type:BUY_CAKE
     }
 }
-export default buy_cakes;
+
+export const buyCakesByNum = (number) => {
+    return {
+        type: BUY_CAKE_NUM,
+        payload:number
+    }
+}

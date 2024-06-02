@@ -1,5 +1,5 @@
 import React from 'react'
-import buy_cakes from '../redux/cakes/cakesActions'
+import {buy_cakes} from '../redux/cakes/cakesActions'
 import { connect } from 'react-redux'
 const CakeContainer = (props) => {
     return (
