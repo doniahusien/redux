@@ -9,7 +9,7 @@ const NewContainer = () => {
         <div>
             <h1>cakes number{cake }</h1>
             <input type="text" onChange={(e)=>setNum(e.target.value)}/>
-            <button onClick={()=>dispatch(buyCakesByNum(num))}>BUY cake{num }</button>
+            <button onClick={()=>dispatch(buyCakesByNum(num))}> BUY cake{num}</button>
         </div>
     )
 }

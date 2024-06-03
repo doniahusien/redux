@@ -3,12 +3,14 @@ import './App.css';
 import HooksCakeContainer from './components/HooksCakeContainer';
 import HooksIceCreamContainer from './components/HooksIceCreamContainer';
 import NewContainer from './components/NewContainer';
+import ItemContainer from './components/ItemContainer';
 function App() {
   return (
     <div className="App">
+    <ItemContainer item="cake"/>
       {/*<CakeContainer />*/}
-      <HooksCakeContainer />
-      <HooksIceCreamContainer/>
+      {/*<HooksCakeContainer />*/}
+      {/*<HooksIceCreamContainer/>*/}
       <NewContainer/>
     </div>
   );
